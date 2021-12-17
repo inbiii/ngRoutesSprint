@@ -1,0 +1,15 @@
+<div class="btnBox" *ngIf='this.btnVis' (click)='this.btnVis = false; this.startVis = true'>
+    <a>Get Started</a>
+</div>
+
+<div class="strtBox" *ngIf="this.startVis">
+    <h2>
+        Get Started
+    </h2>
+    <p>
+        Howdy and welcome...please click the navbar to switch locations
+    </p>
+    <p>
+        a fun time by Omaid Karimi and Megan Marchetti
+    </p>
+</div>

@@ -1,0 +1,42 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: darkslategrey;
+    top: 0;
+    height: auto;
+    margin: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    height: auto;
+    padding: 0;
+}
+
+.nav li {
+    width: 10rem;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+    overflow: hidden;
+    margin-top: 2px;
+}
+
+.nav li:hover {
+    background-color: rgb(32, 54, 54);
+}
+
+.nav a {
+    font-size: 1.7rem;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}

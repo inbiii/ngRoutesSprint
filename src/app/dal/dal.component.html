@@ -1,0 +1,11 @@
+<div class="dalBox">
+
+    <h1>Dallas</h1>
+    <div class="dalInfo" *ngFor="let dal of dalList">
+        <h2 appHeadtwo>{{dal.name}}</h2>
+        <p> {{dal.desc}}
+            <br>
+            <span appSpan>{{dal.author}}</span>
+        </p>
+    </div>
+</div>

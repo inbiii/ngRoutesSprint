@@ -1,0 +1,12 @@
+<div class="phlBox">
+
+    <h1>Philadelphia</h1>
+    <div class="phlInfo" *ngFor="let phl of phlList">
+        <h2 appHeadtwo>{{ phl.name}}</h2>
+        <p> {{phl.desc}}
+            <br>
+            <span appSpan>{{phl.author}}</span>
+        </p>
+    </div>
+
+</div>

@@ -1,0 +1,28 @@
+.itembox {
+    display: flex;
+}
+
+/* .strt {
+    height: 40px;
+    margin: 50px;
+    margin-top: 20%;
+} */
+
+a {
+    margin-top: 275px;
+    margin-left: 40px;
+    height: 40px;
+    width: 180px;
+    border: darkslategrey solid 2px;
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: darkslategrey;
+    background-color: rgb(196, 207, 207);
+}
+
+a:hover {
+    background-color: darkslategrey;
+    color: #fff;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
